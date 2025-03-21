@@ -19,6 +19,7 @@ body {
    
 }
 
+
 @keyframes brilho {
     from {
         text-shadow: 0px 0px 10px rgba(255, 204, 0, 0.5);
@@ -28,3 +29,45 @@ body {
     }
 }
 
+.relogio {
+    font-size: 50px;
+    color: #0ff; /* Azul neon */
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+}
+
+@keyframes pulsar {
+    0% { text-shadow: 0 0 10px #0ff; }
+    50% { text-shadow: 0 0 20px #0ff; }
+    100% { text-shadow: 0 0 10px #0ff; }
+}
+
+.relogio {
+    font-size: 50px;
+    color:  #0ff;
+    animation: pulsar 1s infinite alternate;
+}
+
+@keyframes fundo-animado {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    background: linear-gradient(-45deg, #ff0000, #ff7300, #fffb00, #007bff, #4b0082, #9400d3);
+    background-size: 400% 400%;
+    animation: fundo animado 8s infinite alternate;
+}
+
+@keyframes flutuar {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.relogio {
+    display: inline-block;
+    font-size: 50px0;
+    color: white;
+    animation: flutuar 2s infinite ease-in-out;
+}
