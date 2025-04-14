@@ -15,6 +15,7 @@ function atualizarRelogio() {
   let posX = 0, posY = 0;
   let velocidadeX = 2, velocidadeY = 2;
   
+  /*
   function moverRelogio() {
     const larguraTela = window.innerWidth - relogio.clientWidth;
     const alturaTela = window.innerHeight - relogio.clientHeight;
@@ -34,4 +35,5 @@ function atualizarRelogio() {
     relogio.style.top = `${posY}px`;
   }
   
-  setInterval(moverRelogio, 10);  
+  setInterval(moverRelogio, 10);
+  */
