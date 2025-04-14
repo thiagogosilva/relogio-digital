@@ -11,11 +11,12 @@ function atualizarRelogio() {
   setInterval(atualizarRelogio, 1000);
   atualizarRelogio();
   
+    /*
   const relogio = document.getElementById("relogio");
   let posX = 0, posY = 0;
   let velocidadeX = 2, velocidadeY = 2;
   
-  /*
+
   function moverRelogio() {
     const larguraTela = window.innerWidth - relogio.clientWidth;
     const alturaTela = window.innerHeight - relogio.clientHeight;
