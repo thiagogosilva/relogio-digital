@@ -16,16 +16,15 @@ body {
     -webkit-text-fill-color: transparent;
     text-shadow: 0px 0px 20px rgba(255, 204, 0, 0.8);
     animation: brilho 1.5s infinite alternate;
-   
 }
 
 
 @keyframes brilho {
     from {
-        text-shadow: 0px 0px 10px rgba(255, 204, 0, 0.5);
+        text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
     to {
-        text-shadow: 0px 0px 30px rgba(255, 204, 0, 1);
+        text-shadow: 0px 0px 30px rgb(235, 234, 230);
     }
 }
 
@@ -54,7 +53,7 @@ body {
 }
 
 body {
-    background: linear-gradient(-45deg, #ff0000, #ff7300, #fffb00, #007bff, #4b0082, #9400d3);
+    background: linear-gradient(-45deg, #ff0000, #ff7300, #fffb00, #007bff, #3318ab, #053070);
     background-size: 400% 400%;
     animation: fundo animado 8s infinite alternate;
 }
